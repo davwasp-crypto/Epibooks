@@ -5,7 +5,10 @@ const SingleBook = ({ book }) => {
     const navigate = useNavigate();
 
     return (
-        <Card className="h-100">
+        <Card className="h-100"
+            data-testid="book-card"
+            style={{ border: selected === book.asin ? '3px solid red' : 'none' }}
+        >
             <Card.Img variant="top" src={book.img} />
             <Card.Body className="d-flex flex-column">
                 <Card.Title className="text-truncate">{book.title}</Card.Title>
