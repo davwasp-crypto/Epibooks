@@ -1,0 +1,16 @@
+[
+    {
+        "asin": "0316051853",
+        "title": "Twilight (The Twilight Saga, Book 1)",
+        "img": "https://images-na.ssl-images-amazon.com/images/I/41K99%2Ba79zL.jpg",
+        "price": 12.99,
+        "category": "fantasy"
+    },
+    {
+        "asin": "0316015849",
+        "title": "New Moon (The Twilight Saga, Book 2)",
+        "img": "https://images-na.ssl-images-amazon.com/images/I/41irYAnZ7AL.jpg",
+        "price": 13.50,
+        "category": "fantasy"
+    }
+]
